@@ -1,0 +1,20 @@
+{
+  "name": "image-upload-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sophia Danielsen <sed458@nyu.edu> (https://github.com/Sed458)",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.22.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}
